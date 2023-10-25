@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider_sample/screens/basic_counter_example.dart';
 import 'package:provider_sample/screens/favourite_screen.dart';
 import 'package:provider_sample/screens/slider_example.dart';
+import 'package:provider_sample/screens/theme_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -38,6 +39,13 @@ class _HomeScreenState extends State<HomeScreen> {
             ElevatedButton(
             onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => FavouriteExampleScreen(),)),
             child: Text('Favourite Example')),
+
+            SizedBox(
+              height: 15,
+            ),
+            ElevatedButton(
+            onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (context) => ThemeChangeScreen(),)),
+            child: Text('Theme Example')),
           ],
         ),
       ),

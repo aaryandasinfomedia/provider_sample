@@ -32,5 +32,4 @@ class SampleProvider extends ChangeNotifier{
   }
 
 
-
 }

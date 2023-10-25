@@ -2,7 +2,7 @@ import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_sample/provider.dart';
+import 'package:provider_sample/providers/simple_provider.dart';
 
 class SliderExampleScreen extends StatefulWidget {
   const SliderExampleScreen({super.key});
